@@ -51,7 +51,7 @@ The Global Lorenz Chaos Optimizer fuses **structured chaotic exploration** with 
 **Phase 2 (Discovery)**: Detects promising regions, begins increasing gradient guidance  
 **Phase 3 (Convergence)**: Low chaos, high gradient guidance for precise convergence  
 
-## Benchmark Results
+## Empirical Validation on High-Dimensional Non-Convex Landscapes
 
 ### Rosenbrock Function Performance
 - **Domain**: [-50,000, 50,000] per dimension
