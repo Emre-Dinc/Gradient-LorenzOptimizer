@@ -66,7 +66,7 @@ cross_coupling = 0.1 * sin(lx * ly * freq_x + i * 0.1)
 spiral_component = 0.2 * sin(lx + spiral_phase) * cos(ly + spiral_phase)
 ```
 
-This creates the following:
+The process creates:
 
 **coordinated but unique exploration patterns** for each dimension, avoiding the independence assumptions that limit traditional methods.
 
