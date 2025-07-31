@@ -10,8 +10,6 @@ The Global Lorenz Chaos Optimizer fuses **structured chaotic exploration** with 
 
 **Chaos-Gradient Fusion**: The algorithm blends chaotic flow vectors (for exploration) with normalized gradient directions (for exploitation), with adaptive weighting that automatically shifts from exploration to convergence based on optimization progress.
 
-## What It is
-
 ### Performance Highlights
 - **Extreme Rosenbrock**: Solves 100D Rosenbrock with bounds [-50,000, 50,000] 
 - **26+ Order Magnitude Convergence**: 10^22 → 10^-5 in ~160K iterations
