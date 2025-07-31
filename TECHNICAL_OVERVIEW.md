@@ -66,7 +66,17 @@ cross_coupling = 0.1 * sin(lx * ly * freq_x + i * 0.1)
 spiral_component = 0.2 * sin(lx + spiral_phase) * cos(ly + spiral_phase)
 ```
 
-This creates **coordinated but unique exploration patterns** for each dimension, avoiding the independence assumptions that limit traditional methods.
+This creates the following:
+**coordinated but unique exploration patterns** for each dimension, avoiding the independence assumptions that limit traditional methods.
+Bounded output: Sine/cosine keep perturbations controlled
+Smooth transitions: Trigonometric functions provide continuity
+Rich dynamics: Lorenz provides unpredictable but structured phase evolution
+Dimensional coordination: Each dimension gets unique but correlated patterns
+With the following 3 phases:
+Phase 1: Generate true chaotic dynamics (Lorenz attractor)
+Phase 2: Use chaotic values as phase inputs to trigonometric functions
+Phase 3: Create structured high-dimensional flows with unique frequency modulation per dimension
+
 
 ### 2.3 Gradient-Chaos Fusion
 
