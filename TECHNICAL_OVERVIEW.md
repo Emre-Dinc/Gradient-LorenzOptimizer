@@ -255,7 +255,7 @@ The most ambitious application involves replacing backpropagation with chaos-con
 
 ## Conclusion
 
-The Global Lorenz Chaos Optimizer demonstrates that structured chaos can be further studied for high-dimensional optimization by providing coordinated exploration patterns that pure gradient methods cannot achieve. With consistent 26+ order-of-magnitude convergence on extreme optimization landscapes, this approach opens new possibilities for solving previously intractable problems.
+The Global Lorenz Chaos Optimizer demonstrates that structured chaos can be further studied for high-dimensional optimization by providing coordinated exploration patterns that pure gradient methods cannot achieve. With consistent 26+ order-of-magnitude convergence on rosenbrock, this approach opens new possibilities for solving previously intractable problems.
 
 The current implementation represents early-stage research with tremendous potential for improvement and extension. The systematic research program outlined above could establish chaos-guided optimization as a fundamental paradigm shift, ultimately leading to post-backpropagation AI systems and revolutionary advances in computational optimization across scientific and engineering domains.
 
