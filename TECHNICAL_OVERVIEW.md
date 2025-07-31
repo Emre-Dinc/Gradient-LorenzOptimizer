@@ -67,6 +67,7 @@ spiral_component = 0.2 * sin(lx + spiral_phase) * cos(ly + spiral_phase)
 ```
 
 This creates the following:
+
 **coordinated but unique exploration patterns** for each dimension, avoiding the independence assumptions that limit traditional methods.
 Bounded output: Sine/cosine keep perturbations controlled
 Smooth transitions: Trigonometric functions provide continuity
