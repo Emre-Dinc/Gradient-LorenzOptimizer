@@ -149,6 +149,8 @@ The algorithm automatically transitions through distinct optimization phases:
 
 ### 4.1 Benchmark Results
 
+![Rosenbrock Convergence](./Rosenbrock.png)
+
 **100D Rosenbrock Function with Extreme Bounds [-50,000, 50,000]**:
 - Starting values: ~10^22 (quintillion scale)
 - Final convergence: ~10^-5 (near machine precision)
