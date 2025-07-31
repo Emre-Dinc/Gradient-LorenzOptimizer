@@ -108,7 +108,7 @@ The suite includes 11 standard optimization benchmarks:
 - **Neural Network Training**: Apply chaos control to replace backpropagation
 - **Stochastic Optimization**: Extend to noisy gradient scenarios
 - **OGY Control Integration**: Gradient-Free Stabilization via OGY Control:
-Incorporate Ott-Grebogi-Yorke (OGY) control, a classical method for stabilizing chaotic systems near unstable periodic orbits, to dynamically regulate optimizer trajectories without gradient feedback. By observing state-space perturbations and applying minimal directional corrections, the optimizer could autonomously lock into high-value attractor basins—enabling chaos-guided convergence even in gradient-inaccessible or noisy environments. With this method we can also eliminate current sine-based chaos projection mechanism.
+Incorporate Ott-Grebogi-Yorke (OGY) control, a classical method for stabilizing chaotic systems near unstable periodic orbits, to dynamically regulate optimizer trajectories without gradient feedback. By observing state-space perturbations and applying minimal directional corrections, the optimizer could autonomously lock into high-value attractor basins—enabling chaos-guided convergence even in gradient-inaccessible or noisy environments. With this method we can also eliminate current sine based chaos projection mechanism.
 
 
 ## Dependencies
