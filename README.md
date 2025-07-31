@@ -51,7 +51,7 @@ The Global Lorenz Chaos Optimizer fuses **structured chaotic exploration** with 
 
 ## Empirical Validation on High-Dimensional Non-Convex Landscapes
 
-[Rosenbrock Convergence](Rosenbrock.png)
+<img src="Rosenbrock.png" alt="Rosenbrock Convergence" width="600"/>
 
 *100D Rosenbrock optimization with bounds [-50,000, 50,000]:
 
