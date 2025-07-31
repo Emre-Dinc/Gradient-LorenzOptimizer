@@ -10,7 +10,7 @@ The Global Lorenz Chaos Optimizer fuses **structured chaotic exploration** with 
 
 **Chaos-Gradient Fusion**: The algorithm blends chaotic flow vectors (for exploration) with normalized gradient directions (for exploitation), with adaptive weighting that automatically shifts from exploration to convergence based on optimization progress.
 
-## What It iw
+## What It is
 
 ### Performance Highlights
 - **Extreme Rosenbrock**: Solves 100D Rosenbrock with bounds [-50,000, 50,000] 
@@ -51,7 +51,7 @@ The Global Lorenz Chaos Optimizer fuses **structured chaotic exploration** with 
 **Phase 2 (Discovery)**: Detects promising regions, begins increasing gradient guidance  
 **Phase 3 (Convergence)**: Low chaos, high gradient guidance for precise convergence  
 
-## Benchmark Results
+## Empirical Validation on High-Dimensional Non-Convex Landscapes
 
 ### Rosenbrock Function Performance
 - **Domain**: [-50,000, 50,000] per dimension
@@ -107,7 +107,8 @@ The suite includes 11 standard optimization benchmarks:
 ### Research Extensions
 - **Neural Network Training**: Apply chaos control to replace backpropagation
 - **Stochastic Optimization**: Extend to noisy gradient scenarios
-- **OGY Control Integration**: Incorporate Edward Ott's chaos control methods
+- **OGY Control Integration**: Gradient-Free Stabilization via OGY Control:
+Incorporate Ott-Grebogi-Yorke (OGY) control, a classical method for stabilizing chaotic systems near unstable periodic orbits, to dynamically regulate optimizer trajectories without gradient feedback. By observing state-space perturbations and applying minimal directional corrections, the optimizer could autonomously lock into high-value attractor basins—enabling chaos-guided convergence even in gradient-inaccessible or noisy environments. With this method we can also eliminate current sine based chaos projection mechanism.
 
 
 ## Dependencies
